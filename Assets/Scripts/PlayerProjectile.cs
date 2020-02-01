@@ -36,11 +36,35 @@ public class PlayerProjectile : Projectile
 
     }
 
-    IEnumerator SpawnProjectile()
+
+
+    IEnumerator SpawnArm()
     {
         GameObject o = Instantiate(Projectiles[0]);
 
-        Limbs[0].SetActive(false);
+        Arm limb = o.GetComponent<Arm>();
+
+        bool isArm = false;
+       
+        foreach (GameObject go in Limbs)
+        {
+            if (go.TryGetComponent(out Arm arm))
+            {
+                if (!arm.gameObject.activeSelf) continue;
+                int index = Limbs.IndexOf(go);
+                Limbs[index].SetActive(false);
+                isArm = true;
+                break;
+            }
+        }
+
+        if (!isArm)
+        {
+            Destroy(o);
+
+            yield return null;
+        }
+        
 
         Vector3 location = o.transform.position;
 
@@ -55,17 +79,109 @@ public class PlayerProjectile : Projectile
         yield return null;
     }
 
-    void OnFireLimb(InputValue value)
+    IEnumerator SpawnLeg()
+    {
+
+
+        GameObject o = Instantiate(Projectiles[1]);
+
+        Leg limb = o.GetComponent<Leg>();
+
+        bool isLeg = false;
+        
+        foreach (GameObject go in Limbs)
+        {
+            if (go.TryGetComponent(out Leg leg))
+            {
+                if (!leg.gameObject.activeSelf) break;
+                int index = Limbs.IndexOf(go);
+                Limbs[index].SetActive(false);
+                isLeg = true;
+                break;
+            }
+        }
+
+        if (!isLeg)
+        {
+            Destroy(o);
+
+            yield return null;
+        }
+
+
+        Vector3 location = o.transform.position;
+
+        location = ProjectileSpawnTransform.position;
+
+        o.transform.position = location;
+
+        Rigidbody projectileRigidbody = o.GetComponentInChildren<Rigidbody>();
+
+        projectileRigidbody.AddForce((ProjectileSpawnTransform.forward) * ProjectileSpeed);
+
+        yield return null;
+    }
+
+   
+
+    void OnFireArm()
     {
         m_canFire = false;
-        StartCoroutine(SpawnProjectile());
+        StartCoroutine(SpawnArm());
+    }
+
+    void OnFireLeg()
+    {
+        m_canFire = false;
+        StartCoroutine(SpawnLeg());
+    }
+
+    void FindArmSetActiveTrue()
+    {
+        foreach (GameObject go in Limbs)
+        {
+            if (go.TryGetComponent(out Arm arm2))
+            {
+                int index = Limbs.IndexOf(go);
+                Limbs[index].SetActive(true);
+                break;
+            }
+        }
+    }
+
+
+    void FindLegSetActiveTrue()
+    {
+        foreach (GameObject go in Limbs)
+        {
+            if (go.TryGetComponent(out Leg leg))
+            {
+                int index = Limbs.IndexOf(go);
+                Limbs[index].SetActive(true);
+                break;
+            }
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
     {
         if(collision.rigidbody)
         {
-            Projectiles.Add(collision.gameObject);
+            GameObject o = collision.gameObject.GetComponentInParent<Limb>().gameObject;
+
+            Limb limb = o.GetComponent<Limb>();
+
+            if(limb is Arm arm)
+            {
+                FindArmSetActiveTrue();
+                Destroy(o);
+            }
+
+            if (limb is Leg leg)
+            {
+                FindLegSetActiveTrue();
+                Destroy(o);
+            }
         }
     }
 }
