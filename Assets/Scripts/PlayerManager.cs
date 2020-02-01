@@ -48,8 +48,8 @@ public class PlayerManager : MonoBehaviour
 
         player.transform.position = SpawnLocations[m_playerCount].position;
 
-        player.GetComponent<MeshRenderer>().material = Materials[m_playerCount];
-
+        //player.GetComponent<MeshRenderer>().material = Materials[m_playerCount];
+        
         m_playerCount++;
 
         print("Player joined");

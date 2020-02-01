@@ -43,7 +43,7 @@ public class PlayerProjectile : Projectile
 
         o.transform.position = location;
 
-        Rigidbody projectileRigidbody = o.GetComponent<Rigidbody>();
+        Rigidbody projectileRigidbody = o.GetComponentInChildren<Rigidbody>();
 
         projectileRigidbody.AddForce((ProjectileSpawnTransform.forward) * ProjectileSpeed);
 

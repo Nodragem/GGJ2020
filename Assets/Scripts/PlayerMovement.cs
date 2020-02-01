@@ -12,11 +12,13 @@ public class PlayerMovement : MonoBehaviour
     private float m_moveTimer;
 
     [Header("Input Movement")]
-    public KeyCode Forward;
-    public KeyCode Left;
-    public KeyCode Right;
+    //public KeyCode Forward;
+    //public KeyCode Left;
+    //public KeyCode Right;
     public float Speed;
-    public float MaxSpeed;
+    //public float MaxSpeed;
+
+    public Animator Animator;
     
     // Start is called before the first frame update
     void Start()
@@ -25,6 +27,8 @@ public class PlayerMovement : MonoBehaviour
         m_isGameStart = false;
         PlayerManager.Instance.OnGameStart += OnGameStart;
         m_moveTimer = 0.0f;
+
+        Animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -36,7 +40,11 @@ public class PlayerMovement : MonoBehaviour
 
         Vector3 dir = new Vector3(m_movement.x, 0, m_movement.y);
 
-        m_rigidbody.velocity =  dir * Speed * Time.deltaTime;
+        //m_rigidbody.velocity =  dir * Speed * Time.deltaTime;
+
+        Vector3 move = dir * Speed * Time.deltaTime;
+
+        Animator.SetFloat("Speed", move.normalized.magnitude);
 
         //if (m_rigidbody.velocity.magnitude < 0.1f)
         //    m_moveTimer = 0.0f;
@@ -44,12 +52,13 @@ public class PlayerMovement : MonoBehaviour
         //    m_moveTimer += Time.deltaTime;
 
         //if (Vector3.Dot(preDir,dir.normalized) < 0.99f ) m_moveTimer = 0.0f;
-        if (m_rigidbody.velocity.magnitude > 0.1f)
-            m_rigidbody.MoveRotation(Quaternion.LookRotation(m_rigidbody.velocity.normalized));
-        //if (m_rigidbody.velocity.magnitude > 0.1f)
-        //    m_rigidbody.MoveRotation(Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(m_rigidbody.velocity.normalized), m_moveTimer));
+        if (move.magnitude > 0.1f)
+            transform.rotation = Quaternion.LookRotation(move.normalized);
+            //m_rigidbody.MoveRotation(Quaternion.LookRotation(move.normalized));
+            //if (m_rigidbody.velocity.magnitude > 0.1f)
+            //    m_rigidbody.MoveRotation(Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(m_rigidbody.velocity.normalized), m_moveTimer));
 
-        //if(m_moveTimer > 1.0f) m_moveTimer = 0.0f;
+            //if(m_moveTimer > 1.0f) m_moveTimer = 0.0f;
 
         print(m_moveTimer);
     }
