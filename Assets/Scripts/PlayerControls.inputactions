@@ -1,0 +1,71 @@
+{
+    "name": "PlayerControls",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "ba817015-1cbf-4256-bf9d-d1ac300351ed",
+            "actions": [
+                {
+                    "name": "MoveX",
+                    "type": "Value",
+                    "id": "6f611b32-d6e1-4521-be65-cf12d30a1399",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MoveY",
+                    "type": "Value",
+                    "id": "6f479602-252f-4247-a206-b668cb5bd82d",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "FireLimb",
+                    "type": "Button",
+                    "id": "1f4ea68b-3e7a-45e5-8ce9-f1942fda475f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "582037fd-6e82-4b8d-9a87-cc3855a6ed2f",
+                    "path": "<HID::Nintendo Wireless Gamepad>/hat/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveX",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "27426b45-b7b1-4163-a687-043a3b234a80",
+                    "path": "<HID::Nintendo Wireless Gamepad>/hat/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveY",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9d48078a-3aee-4281-9192-e92422164188",
+                    "path": "<HID::Nintendo Wireless Gamepad>/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FireLimb",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
