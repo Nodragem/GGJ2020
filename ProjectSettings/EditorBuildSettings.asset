@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TestLimbThrowingLevel.unity
     guid: e5965696066ecc548873fdedcb3e03c9
+  - enabled: 1
+    path: Assets/Scenes/Level.unity
+    guid: 4138b302c8bc1944d845ac85cfdc7b59
   m_configObjects: {}
