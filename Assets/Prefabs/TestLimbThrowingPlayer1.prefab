@@ -128,11 +128,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ad9abd27ad922943862487c52d53ae3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Forward: 119
-  Left: 97
-  Right: 100
   Speed: 100
-  MaxSpeed: 50
+  Animator: {fileID: 0}
 --- !u!114 &4197512782379862633
 MonoBehaviour:
   m_ObjectHideFlags: 0
