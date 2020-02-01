@@ -8,9 +8,12 @@ public class PlayerProjectile : Projectile
     //Private projectile member variables
     private float m_projectileCooldown;
     private bool m_canFire;
+    private int m_projectileIndex;
+
 
     [Header("Player Projectile")]
-    public GameObject Projectile;
+    public List<GameObject> Projectiles;
+    public List<GameObject> Limbs;
     public Transform ProjectileSpawnTransform;
 
     // Start is called before the first frame update
@@ -18,8 +21,8 @@ public class PlayerProjectile : Projectile
     {
         m_projectileCooldown = 2.0f;
         m_canFire = true;
+        m_projectileIndex = 0;
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -35,7 +38,9 @@ public class PlayerProjectile : Projectile
 
     IEnumerator SpawnProjectile()
     {
-        GameObject o = Instantiate(Projectile);
+        GameObject o = Instantiate(Projectiles[0]);
+
+        Limbs[0].SetActive(false);
 
         Vector3 location = o.transform.position;
 
@@ -54,5 +59,13 @@ public class PlayerProjectile : Projectile
     {
         m_canFire = false;
         StartCoroutine(SpawnProjectile());
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.rigidbody)
+        {
+            Projectiles.Add(collision.gameObject);
+        }
     }
 }
