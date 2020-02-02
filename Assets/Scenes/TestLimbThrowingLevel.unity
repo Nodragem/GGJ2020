@@ -128,16 +128,43 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3094327123335168770, guid: 95d2b9ddb1853534db68daa368fb1103,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3094327123335168770, guid: 95d2b9ddb1853534db68daa368fb1103,
+        type: 3}
+      propertyPath: m_UseColorTemperature
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3094327123940964401, guid: 95d2b9ddb1853534db68daa368fb1103,
         type: 3}
       propertyPath: Materials.Array.size
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3094327123940964401, guid: 95d2b9ddb1853534db68daa368fb1103,
+        type: 3}
+      propertyPath: Players.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3094327123940964401, guid: 95d2b9ddb1853534db68daa368fb1103,
+        type: 3}
+      propertyPath: Players.Array.data[0]
+      value: 
+      objectReference: {fileID: 7309305127407844345, guid: e1d0ccf9d97a2674c9fea5f0fccd9b40,
+        type: 3}
+    - target: {fileID: 3094327123940964401, guid: 95d2b9ddb1853534db68daa368fb1103,
+        type: 3}
+      propertyPath: Players.Array.data[1]
+      value: 
+      objectReference: {fileID: 7309305127407844345, guid: 0b26c66b0f3c86e458807aabd3cdca49,
+        type: 3}
     - target: {fileID: 3094327123940964403, guid: 95d2b9ddb1853534db68daa368fb1103,
         type: 3}
       propertyPath: m_PlayerPrefab
       value: 
-      objectReference: {fileID: 7309305127407844345, guid: a7d40c37e678acf449051dad78d378f4,
+      objectReference: {fileID: 7309305127407844345, guid: e1d0ccf9d97a2674c9fea5f0fccd9b40,
         type: 3}
     - target: {fileID: 3154004701158276978, guid: 95d2b9ddb1853534db68daa368fb1103,
         type: 3}

@@ -12,7 +12,7 @@ public class PlayerManager : MonoBehaviour
     private int m_playerCount;
    
     public Action OnGameStart;
-    public Material[] Materials;
+    public GameObject[] Players;
     public PlayerInputManager InputManager;
     public Transform[] SpawnLocations;
     public bool isStarting;
@@ -47,10 +47,10 @@ public class PlayerManager : MonoBehaviour
         GameObject player = InputManager.playerPrefab;
 
         player.transform.position = SpawnLocations[m_playerCount].position;
-
-        //player.GetComponent<MeshRenderer>().material = Materials[m_playerCount];
         
         m_playerCount++;
+
+        InputManager.playerPrefab = Players[m_playerCount];
 
         print("Player joined");
     }

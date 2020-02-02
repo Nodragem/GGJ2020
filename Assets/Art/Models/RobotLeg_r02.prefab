@@ -317,7 +317,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6254223212478518488}
   m_Layer: 0
-  m_Name: RobotLeg_r01
+  m_Name: RobotLeg_r02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -390,7 +390,7 @@ SkinnedMeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 7922251121040759823, guid: cf41fec884f166048b2d2f09fa6a94f9, type: 3}
-  - {fileID: -5265988109326455897, guid: cf41fec884f166048b2d2f09fa6a94f9, type: 3}
+  - {fileID: 2100000, guid: 403e54a9daf010049a478e539578a82a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -438,4 +438,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1e1a544dbc091347ad7c5672cc92014, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID: 0
+  ID: 1

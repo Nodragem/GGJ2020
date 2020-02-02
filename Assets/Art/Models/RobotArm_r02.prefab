@@ -151,7 +151,7 @@ SkinnedMeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 7922251121040759823, guid: 4898d6ce8206b6744bcfbcd7d839f2ee, type: 3}
-  - {fileID: -5265988109326455897, guid: 4898d6ce8206b6744bcfbcd7d839f2ee, type: 3}
+  - {fileID: 2100000, guid: 403e54a9daf010049a478e539578a82a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -199,7 +199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a36381b4620e7d4cabd127134440c58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID: 0
+  ID: 1
 --- !u!1 &2343116483789327413
 GameObject:
   m_ObjectHideFlags: 0
@@ -418,7 +418,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5851351994519172660}
   m_Layer: 0
-  m_Name: RobotArm_r01
+  m_Name: RobotArm_r02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

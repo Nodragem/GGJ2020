@@ -241,7 +241,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 057581585404630429a820f2937438ba, type: 2}
+  - {fileID: 2100000, guid: 403e54a9daf010049a478e539578a82a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -504,7 +504,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1717153439856890869}
   m_LocalRotation: {x: -0.38268343, y: 0, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 0, y: 1.39, z: 0.62}
+  m_LocalPosition: {x: 0, y: 1.29, z: 0.94}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5995566063285373418}
@@ -655,7 +655,7 @@ SkinnedMeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: f83d0f2679e016b428bf9dd239a6fcc9, type: 2}
-  - {fileID: 2100000, guid: 057581585404630429a820f2937438ba, type: 2}
+  - {fileID: 2100000, guid: 403e54a9daf010049a478e539578a82a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -703,7 +703,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a36381b4620e7d4cabd127134440c58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID: 0
+  ID: 1
 --- !u!1 &2071576523307512870
 GameObject:
   m_ObjectHideFlags: 0
@@ -785,7 +785,7 @@ SkinnedMeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: f83d0f2679e016b428bf9dd239a6fcc9, type: 2}
-  - {fileID: 2100000, guid: 057581585404630429a820f2937438ba, type: 2}
+  - {fileID: 2100000, guid: 403e54a9daf010049a478e539578a82a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -833,7 +833,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a36381b4620e7d4cabd127134440c58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID: 0
+  ID: 1
 --- !u!1 &2603150481982492986
 GameObject:
   m_ObjectHideFlags: 0
@@ -1129,7 +1129,7 @@ SkinnedMeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: f83d0f2679e016b428bf9dd239a6fcc9, type: 2}
-  - {fileID: 2100000, guid: 057581585404630429a820f2937438ba, type: 2}
+  - {fileID: 2100000, guid: 403e54a9daf010049a478e539578a82a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1178,7 +1178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1e1a544dbc091347ad7c5672cc92014, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID: 0
+  ID: 1
 --- !u!1 &4091667269017714168
 GameObject:
   m_ObjectHideFlags: 0
@@ -1870,7 +1870,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 057581585404630429a820f2937438ba, type: 2}
+  - {fileID: 2100000, guid: 403e54a9daf010049a478e539578a82a, type: 2}
   - {fileID: 2100000, guid: f83d0f2679e016b428bf9dd239a6fcc9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -1974,7 +1974,7 @@ SkinnedMeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: f83d0f2679e016b428bf9dd239a6fcc9, type: 2}
-  - {fileID: 2100000, guid: 057581585404630429a820f2937438ba, type: 2}
+  - {fileID: 2100000, guid: 403e54a9daf010049a478e539578a82a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2023,7 +2023,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1e1a544dbc091347ad7c5672cc92014, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID: 0
+  ID: 1
 --- !u!1 &6977774166649319094
 GameObject:
   m_ObjectHideFlags: 0
@@ -2102,7 +2102,7 @@ GameObject:
   - component: {fileID: -691254374032760457}
   - component: {fileID: 4901636255204945642}
   m_Layer: 0
-  m_Name: Robot2
+  m_Name: Robot3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2116,7 +2116,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7309305127407844345}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.73, y: 1.5, z: -1.2868443}
+  m_LocalPosition: {x: 8.57, y: 1.5, z: -1.2868443}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4683694259843907859}
@@ -2193,16 +2193,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ProjectileSpeed: 1200
   Projectiles:
-  - {fileID: 7453303983415772199, guid: 15a530d120d993546807379d5b0698ea, type: 3}
-  - {fileID: 6958113345918346955, guid: e2438e6eaeaeae24892b99a3f58f01eb, type: 3}
+  - {fileID: 7453303983415772199, guid: c51d790de07edd44ea82f663e59872e2, type: 3}
+  - {fileID: 6958113345918346955, guid: 36e19ce2c87ac0e4689950735e19937c, type: 3}
   Limbs:
   - {fileID: 2048649804407328236}
   - {fileID: 6938949956745317904}
   - {fileID: 2597141829341421529}
   - {fileID: 4083413453974631350}
   RobotMaterials:
-  - {fileID: 2100000, guid: 057581585404630429a820f2937438ba, type: 2}
   - {fileID: 2100000, guid: 403e54a9daf010049a478e539578a82a, type: 2}
+  - {fileID: 2100000, guid: 057581585404630429a820f2937438ba, type: 2}
   ProjectileSpawnTransform: {fileID: 93629461112972550}
 --- !u!114 &7104199576983444389
 MonoBehaviour:
