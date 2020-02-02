@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8195260391392361848}
   - component: {fileID: 6707946258011129740}
+  - component: {fileID: 3331007273801212217}
+  - component: {fileID: 7595146197501614157}
   m_Layer: 0
   m_Name: BlueSwitch
   m_TagString: Untagged
@@ -45,6 +47,34 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.8251266, y: 10.13142, z: 2.2739677}
   m_Center: {x: 41.44827, y: 6.360322, z: -9.979326}
+--- !u!114 &3331007273801212217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3300064516612827113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb1493a828f54c141a8f7d172b908c20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!54 &7595146197501614157
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3300064516612827113}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &7791194428308080267
 PrefabInstance:
   m_ObjectHideFlags: 0

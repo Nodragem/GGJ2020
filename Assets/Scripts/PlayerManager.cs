@@ -30,7 +30,7 @@ public class PlayerManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(InputManager.maxPlayerCount == m_playerCount)
+        if(m_playerCount >= 1)
         {
             isStarting = true;
         }

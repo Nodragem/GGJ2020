@@ -40,6 +40,9 @@ public class PlayerProjectile : Projectile
 
     IEnumerator SpawnArm()
     {
+        if (Projectiles[0] == null)
+            yield return null;
+
         GameObject o = Instantiate(Projectiles[0]);
 
         Arm limb = o.GetComponent<Arm>();
@@ -82,6 +85,8 @@ public class PlayerProjectile : Projectile
     IEnumerator SpawnLeg()
     {
 
+        if (Projectiles[1] == null)
+            yield return null;
 
         GameObject o = Instantiate(Projectiles[1]);
 

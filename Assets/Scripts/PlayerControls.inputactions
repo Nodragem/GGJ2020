@@ -49,8 +49,8 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "582037fd-6e82-4b8d-9a87-cc3855a6ed2f",
-                    "path": "<HID::Nintendo Wireless Gamepad>/hat/x",
+                    "id": "84d56212-1a92-4405-acdf-05ace7420e44",
+                    "path": "<Gamepad>/leftStick/x",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -60,8 +60,8 @@
                 },
                 {
                     "name": "",
-                    "id": "84d56212-1a92-4405-acdf-05ace7420e44",
-                    "path": "<Gamepad>/leftStick/x",
+                    "id": "582037fd-6e82-4b8d-9a87-cc3855a6ed2f",
+                    "path": "<HID::Nintendo Wireless Gamepad>/hat/x",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -104,8 +104,8 @@
                 },
                 {
                     "name": "",
-                    "id": "27426b45-b7b1-4163-a687-043a3b234a80",
-                    "path": "<HID::Nintendo Wireless Gamepad>/hat/y",
+                    "id": "ad8bfca1-3398-48fa-8ff0-ab47e2489550",
+                    "path": "<Gamepad>/leftStick/y",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -115,8 +115,8 @@
                 },
                 {
                     "name": "",
-                    "id": "8c6096b2-7861-42b5-8482-5f658896a822",
-                    "path": "<Gamepad>/leftStick/y",
+                    "id": "27426b45-b7b1-4163-a687-043a3b234a80",
+                    "path": "<HID::Nintendo Wireless Gamepad>/hat/y",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -159,8 +159,8 @@
                 },
                 {
                     "name": "",
-                    "id": "9d48078a-3aee-4281-9192-e92422164188",
-                    "path": "<HID::Nintendo Wireless Gamepad>/trigger",
+                    "id": "3c66db5a-b9af-4e79-b212-fc4bbb8482a3",
+                    "path": "<Gamepad>/buttonWest",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -170,12 +170,12 @@
                 },
                 {
                     "name": "",
-                    "id": "4a3c0cb2-c069-4f91-827d-4f289191e6ed",
-                    "path": "<HID::Nintendo Wireless Gamepad>/button4",
+                    "id": "9d48078a-3aee-4281-9192-e92422164188",
+                    "path": "<HID::Nintendo Wireless Gamepad>/trigger",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "FireArm",
+                    "action": "FireLimb",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -192,8 +192,19 @@
                 },
                 {
                     "name": "",
-                    "id": "4990b733-f988-4927-a1e4-57f69633bdfc",
-                    "path": "<HID::Nintendo Wireless Gamepad>/button2",
+                    "id": "4a3c0cb2-c069-4f91-827d-4f289191e6ed",
+                    "path": "<HID::Nintendo Wireless Gamepad>/button4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FireArm",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f05219ad-e977-40cd-b78a-275a20d9cbf8",
+                    "path": "<Gamepad>/buttonEast",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -203,8 +214,8 @@
                 },
                 {
                     "name": "",
-                    "id": "f05219ad-e977-40cd-b78a-275a20d9cbf8",
-                    "path": "<Gamepad>/buttonEast",
+                    "id": "4990b733-f988-4927-a1e4-57f69633bdfc",
+                    "path": "<HID::Nintendo Wireless Gamepad>/button2",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

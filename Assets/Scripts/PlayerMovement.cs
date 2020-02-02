@@ -60,7 +60,7 @@ public class PlayerMovement : MonoBehaviour
 
             //if(m_moveTimer > 1.0f) m_moveTimer = 0.0f;
 
-        print(m_moveTimer);
+        // print(m_moveTimer);
     }
 
     void OnMoveX(InputValue value)
