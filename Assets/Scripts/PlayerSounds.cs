@@ -30,6 +30,16 @@ public class PlayerSounds : MonoBehaviour
         PlayClipOneShot(throwClips, false);
     }
 
+    void OnFireArm(InputValue value)
+    {
+        PlayClipOneShot(throwClips, false);
+    }
+
+    void OnFireLeg(InputValue value)
+    {
+        PlayClipOneShot(throwClips, false);
+    }
+
     void Footstep()
     {
         PlayClipOneShot(footstepClips, false);
