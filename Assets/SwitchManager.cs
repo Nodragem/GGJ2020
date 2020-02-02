@@ -5,10 +5,11 @@ using UnityEngine;
 public class SwitchManager : MonoBehaviour
 {
     public string colorID = "blue";
+    public GameObject activationEffect;
     // Start is called before the first frame update
     void Start()
     {
-        
+        activationEffect.SetActive(false);
     }
 
     // Update is called once per frame
