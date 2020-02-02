@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SwitchManager : MonoBehaviour
 {
-    string colorID = "blue";
+    public string colorID = "blue";
     // Start is called before the first frame update
     void Start()
     {

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7605549270268525628}
   - component: {fileID: 3374484944546100142}
   - component: {fileID: 9119401294826874164}
+  - component: {fileID: 4983881948573771807}
   m_Layer: 0
   m_Name: RedSwitch
   m_TagString: Untagged
@@ -62,6 +63,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4983881948573771807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8620707087559469273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb1493a828f54c141a8f7d172b908c20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorID: red
 --- !u!1001 &2207328013631890040
 PrefabInstance:
   m_ObjectHideFlags: 0
