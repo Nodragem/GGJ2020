@@ -541,7 +541,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
     m_Reference: {fileID: 0}
-  m_PlayerPrefab: {fileID: 7309305127407844345, guid: e1d0ccf9d97a2674c9fea5f0fccd9b40,
+  m_PlayerPrefab: {fileID: 7309305127407844345, guid: ccdc5dc1866041d4cb23b17e673f2d17,
     type: 3}
   m_SplitScreen: 0
   m_MaintainAspectRatioInSplitScreen: 0
@@ -565,7 +565,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Players:
-  - {fileID: 7309305127407844345, guid: e1d0ccf9d97a2674c9fea5f0fccd9b40, type: 3}
+  - {fileID: 7309305127407844345, guid: ccdc5dc1866041d4cb23b17e673f2d17, type: 3}
   - {fileID: 7309305127407844345, guid: 0b26c66b0f3c86e458807aabd3cdca49, type: 3}
   InputManager: {fileID: 3094327123940964403}
   SpawnLocations:

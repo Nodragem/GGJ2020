@@ -152,7 +152,7 @@ PrefabInstance:
         type: 3}
       propertyPath: Players.Array.data[0]
       value: 
-      objectReference: {fileID: 7309305127407844345, guid: e1d0ccf9d97a2674c9fea5f0fccd9b40,
+      objectReference: {fileID: 7309305127407844345, guid: ccdc5dc1866041d4cb23b17e673f2d17,
         type: 3}
     - target: {fileID: 3094327123940964401, guid: 95d2b9ddb1853534db68daa368fb1103,
         type: 3}
@@ -164,7 +164,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_PlayerPrefab
       value: 
-      objectReference: {fileID: 7309305127407844345, guid: e1d0ccf9d97a2674c9fea5f0fccd9b40,
+      objectReference: {fileID: 7309305127407844345, guid: ccdc5dc1866041d4cb23b17e673f2d17,
         type: 3}
     - target: {fileID: 3154004701158276978, guid: 95d2b9ddb1853534db68daa368fb1103,
         type: 3}
