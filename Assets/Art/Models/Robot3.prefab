@@ -241,7 +241,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 057581585404630429a820f2937438ba, type: 2}
+  - {fileID: 2100000, guid: 403e54a9daf010049a478e539578a82a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -504,7 +504,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1717153439856890869}
   m_LocalRotation: {x: -0.38268343, y: 0, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 0, y: 1.39, z: 0.62}
+  m_LocalPosition: {x: 0, y: 1.29, z: 0.94}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5995566063285373418}
@@ -655,7 +655,7 @@ SkinnedMeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: f83d0f2679e016b428bf9dd239a6fcc9, type: 2}
-  - {fileID: 2100000, guid: 057581585404630429a820f2937438ba, type: 2}
+  - {fileID: 2100000, guid: 403e54a9daf010049a478e539578a82a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -703,7 +703,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a36381b4620e7d4cabd127134440c58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID: 0
+  ID: 1
 --- !u!1 &2071576523307512870
 GameObject:
   m_ObjectHideFlags: 0
@@ -785,7 +785,7 @@ SkinnedMeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: f83d0f2679e016b428bf9dd239a6fcc9, type: 2}
-  - {fileID: 2100000, guid: 057581585404630429a820f2937438ba, type: 2}
+  - {fileID: 2100000, guid: 403e54a9daf010049a478e539578a82a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -833,7 +833,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a36381b4620e7d4cabd127134440c58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID: 0
+  ID: 1
 --- !u!1 &2603150481982492986
 GameObject:
   m_ObjectHideFlags: 0
@@ -1129,7 +1129,7 @@ SkinnedMeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: f83d0f2679e016b428bf9dd239a6fcc9, type: 2}
-  - {fileID: 2100000, guid: 057581585404630429a820f2937438ba, type: 2}
+  - {fileID: 2100000, guid: 403e54a9daf010049a478e539578a82a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1178,7 +1178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1e1a544dbc091347ad7c5672cc92014, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID: 0
+  ID: 1
 --- !u!1 &4091667269017714168
 GameObject:
   m_ObjectHideFlags: 0
@@ -1870,7 +1870,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 057581585404630429a820f2937438ba, type: 2}
+  - {fileID: 2100000, guid: 403e54a9daf010049a478e539578a82a, type: 2}
   - {fileID: 2100000, guid: f83d0f2679e016b428bf9dd239a6fcc9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -1974,7 +1974,7 @@ SkinnedMeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: f83d0f2679e016b428bf9dd239a6fcc9, type: 2}
-  - {fileID: 2100000, guid: 057581585404630429a820f2937438ba, type: 2}
+  - {fileID: 2100000, guid: 403e54a9daf010049a478e539578a82a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2023,7 +2023,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1e1a544dbc091347ad7c5672cc92014, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID: 0
+  ID: 1
 --- !u!1 &6977774166649319094
 GameObject:
   m_ObjectHideFlags: 0
@@ -2101,10 +2101,8 @@ GameObject:
   - component: {fileID: 7104199576983444389}
   - component: {fileID: -691254374032760457}
   - component: {fileID: 4901636255204945642}
-  - component: {fileID: 3175923328160811715}
-  - component: {fileID: 9166078013600540381}
   m_Layer: 0
-  m_Name: Robot2
+  m_Name: Robot3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2118,11 +2116,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7309305127407844345}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-<<<<<<< HEAD
-  m_LocalPosition: {x: 0, y: 0.86, z: 0}
-=======
-  m_LocalPosition: {x: -8.73, y: 1.5, z: -1.2868443}
->>>>>>> MakeArmsAndLegsUnique
+  m_LocalPosition: {x: 8.57, y: 1.5, z: -1.2868443}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4683694259843907859}
@@ -2199,16 +2193,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ProjectileSpeed: 1200
   Projectiles:
-  - {fileID: 7453303983415772199, guid: 15a530d120d993546807379d5b0698ea, type: 3}
-  - {fileID: 6958113345918346955, guid: e2438e6eaeaeae24892b99a3f58f01eb, type: 3}
+  - {fileID: 7453303983415772199, guid: c51d790de07edd44ea82f663e59872e2, type: 3}
+  - {fileID: 6958113345918346955, guid: 36e19ce2c87ac0e4689950735e19937c, type: 3}
   Limbs:
   - {fileID: 2048649804407328236}
   - {fileID: 6938949956745317904}
   - {fileID: 2597141829341421529}
   - {fileID: 4083413453974631350}
   RobotMaterials:
-  - {fileID: 2100000, guid: 057581585404630429a820f2937438ba, type: 2}
   - {fileID: 2100000, guid: 403e54a9daf010049a478e539578a82a, type: 2}
+  - {fileID: 2100000, guid: 057581585404630429a820f2937438ba, type: 2}
   ProjectileSpawnTransform: {fileID: 93629461112972550}
 --- !u!114 &7104199576983444389
 MonoBehaviour:
@@ -2254,121 +2248,6 @@ CapsuleCollider:
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3175923328160811715
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7309305127407844345}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21938a8f2554be64d82feff3e30fed8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  throwClips:
-  - {fileID: 8300000, guid: 143177dd956de25469ec005c5ed905fb, type: 3}
-  - {fileID: 8300000, guid: 4ac2c20a812c5a94d9008c0b736a585e, type: 3}
-  - {fileID: 8300000, guid: 568f791b8e9b67e4bb6c587c8185d066, type: 3}
-  footstepClips:
-  - {fileID: 8300000, guid: 1d12d24a3257ac24a894edae87ad1132, type: 3}
-  - {fileID: 8300000, guid: 42be12e7f5f1efc4b96ab0ff45e3c759, type: 3}
---- !u!82 &9166078013600540381
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7309305127407844345}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &7395797723362825204
 GameObject:
   m_ObjectHideFlags: 0
