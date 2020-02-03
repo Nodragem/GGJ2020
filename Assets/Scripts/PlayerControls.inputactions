@@ -192,6 +192,17 @@
                 },
                 {
                     "name": "",
+                    "id": "3e4ef912-d7b6-489a-b63c-705fc06d7aba",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FireArm",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "4990b733-f988-4927-a1e4-57f69633bdfc",
                     "path": "<HID::Nintendo Wireless Gamepad>/button2",
                     "interactions": "",
@@ -205,6 +216,17 @@
                     "name": "",
                     "id": "f05219ad-e977-40cd-b78a-275a20d9cbf8",
                     "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FireLeg",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e840bd40-4fcd-42cb-8708-860f4ce03bad",
+                    "path": "<Keyboard>/leftShift",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
