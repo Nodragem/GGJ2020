@@ -193,16 +193,22 @@ public class PlayerProjectile : Projectile
             {
                 if (go.activeSelf) continue;
                 go.SetActive(true);
-                
-                Material[] mats = go.GetComponent<SkinnedMeshRenderer>().materials;
 
-                mats[1] = RobotMaterials[1];
+                for(int i = 0; i < go.GetComponent<SkinnedMeshRenderer>().materials.Length; ++i)
+                {
+                    Material robot = go.GetComponent<SkinnedMeshRenderer>().materials[i];
+                    Material looseLeg = leg.GetComponent<SkinnedMeshRenderer>().materials[i];
 
-                go.GetComponent<SkinnedMeshRenderer>().materials = mats;
+                    if (robot == looseLeg) continue;
 
-                Material tmp = RobotMaterials[0];
-                RobotMaterials[0] = RobotMaterials[1];
-                RobotMaterials[1] = tmp;
+                    robot = looseLeg;
+
+                    Material[] mats = go.GetComponent<SkinnedMeshRenderer>().materials;
+
+                    mats[i] = robot;
+
+                    go.GetComponent<SkinnedMeshRenderer>().materials = mats;
+                }
 
                 return false;
             }
@@ -231,7 +237,7 @@ public class PlayerProjectile : Projectile
             }
 
             if(!remain)
-                Destroy(o.transform.parent.gameObject);
+                Destroy(o.transform.parent.gameObject.transform.parent.gameObject);
         }
     }
 }

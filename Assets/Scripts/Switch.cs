@@ -31,37 +31,53 @@ public class Switch : MonoBehaviour
 
             if (limb is Arm arm)
             {
-                //if (arm.ID == LegNArm[1].GetComponent<Arm>().ID)
-                //{
+
+                Material[] ThrownArmMats = arm.GetComponent<SkinnedMeshRenderer>().materials;
+                Material[] ArmInCircuitMats = LegNArm[1].GetComponentInChildren<SkinnedMeshRenderer>().materials;
+
+                print(ThrownArmMats);
+                print(ArmInCircuitMats);
+                print(ThrownArmMats[1] == ArmInCircuitMats[1]);
+                
+
+                if (ThrownArmMats[1].color == ArmInCircuitMats[1].color)
+                {
                     LegNArm[1].SetActive(true);
                     //ActivationEffect.SetActive(true);
                     UpdateManager();
                     Destroy(limb.gameObject.transform.parent.gameObject);
-                //}
-                //else
-                //{
-                //    Rigidbody rb = other.gameObject.GetComponentInChildren<Rigidbody>();
+                }
+                else
+                {
+                   Rigidbody rb = other.gameObject.GetComponentInChildren<Rigidbody>();
 
-                //    rb.AddRelativeForce(-rb.velocity / 3);
-                //}
+                    rb.AddRelativeForce(-rb.velocity / 3);
+                }
 
             }
 
             if (limb is Leg leg)
             {
-                //if (leg.ID == LegNArm[0].GetComponent<Arm>().ID)
-                //{
+                Material[] ThrownLegMats = leg.GetComponent<SkinnedMeshRenderer>().materials;
+                Material[] LegInCircuitMats = LegNArm[0].GetComponentInChildren<SkinnedMeshRenderer>().materials;
+
+                print(ThrownLegMats);
+                print(LegInCircuitMats);
+                print(ThrownLegMats[1] == LegInCircuitMats[1]);
+
+                if (ThrownLegMats[1].color == LegInCircuitMats[1].color)
+                {
                     LegNArm[0].SetActive(true);
                     //ActivationEffect.SetActive(true);
                     UpdateManager();
                     Destroy(limb.gameObject.transform.parent.gameObject);
-                //}
-                //else
-                //{
-                //    Rigidbody rb = other.gameObject.GetComponentInChildren<Rigidbody>();
+                }
+                else
+                {
+                    Rigidbody rb = other.gameObject.GetComponentInChildren<Rigidbody>();
 
-                //    rb.AddRelativeForce(-rb.velocity / 3);
-                //}
+                    rb.AddRelativeForce(-rb.velocity / 3);
+                }
 
             }
 
