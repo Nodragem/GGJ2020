@@ -1,6 +1,7 @@
 ## Integral 2
 
 An audiovisual prototype developed during the Global Game Jam 2020 in Cardiff.
+With diversifiers from Sony Interactive Entertainment and Value Corporation.
 
 ### Contributors
 - jSplunk (Gameplay Programming)
